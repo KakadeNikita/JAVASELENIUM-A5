@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="org.batchexecution.Suzuki">
+        <methods>
+          <include name="launchHayabusa"/>
+        </methods>
+      </class> <!-- org.batchexecution.Suzuki -->
+      <class name="org.batchexecution.Jawa">
+        <methods>
+          <include name="launch42Bobber"/>
+          <include name="launchPerak"/>
+        </methods>
+      </class> <!-- org.batchexecution.Jawa -->
+      <class name="org.batchexecution.Hero">
+        <methods>
+          <include name="launchingHarleyBike"/>
+        </methods>
+      </class> <!-- org.batchexecution.Hero -->
+      <class name="org.batchexecution.Yamaha">
+        <methods>
+          <include name="launchR1"/>
+        </methods>
+      </class> <!-- org.batchexecution.Yamaha -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
