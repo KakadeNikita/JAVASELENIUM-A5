@@ -23,9 +23,7 @@ public class LaunchingAllBrowser {
 		else if(browserName.equalsIgnoreCase("firefox")) {
 			driver=new FirefoxDriver();
 		}
-		else {
-			System.err.println("Invalid Browser");
-		}
+		
 }
 	
 }
